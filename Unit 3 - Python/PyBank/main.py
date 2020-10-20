@@ -36,7 +36,8 @@ with open(filepath,"r",encoding='utf-8') as file:
 
 output_result = ("Financial Analysis\n"
 "----------------------------------\n"
-f"Total Months: {total_months}\n"+f"Total: ${total_profit}\n"
+f"Total Months: {total_months}\n"
+f"Total: ${total_profit}\n"
 f"Average Change: ${average_change}\n"
 f"Greatest Increase in Profits: {max_date} (${max_change})\n"
 f"Greatest Decrease in Profits: {min_date} (${min_change})\n")
