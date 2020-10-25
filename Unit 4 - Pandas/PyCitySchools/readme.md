@@ -21,23 +21,25 @@ Based on the analysis I did for PyCitySchools, there are two trends I can conclu
 
 2. Schools with smaller spending ranges per student tend to have higher math and reading grades and higher passing grades than the schools with larger spending ranges per student. For the size of schools, schools with size smaller than 1000 and schools with size between 1000 and 200 do not have too much difference in terms of their math and reading scores. But for the schools with more than 2000 students, the math scores and reading scores are significantly lower. Lastly, Chater schools have much higher math and reading scores compared to District schools.
 
+Please refer to the following images for the trend.s
+
 # **Output Results** 
 The following is the link to each output Data Frames I got for each section of the homework. 
 
-![The District Summary Data Frame](\Screenshots\District_Summary.PNG)
+![The District Summary Data Frame](Screenshots/District_Summary.PNG)
 
-![The School Summary Data Frame](\Screenshots\School_Summary.PNG)
+![The School Summary Data Frame](Screenshots/School_Summary.PNG)
 
-![The Top Performing Schools Data Frame](\Screenshots\Top_Performing_Schools.PNG)
+![The Top Performing Schools Data Frame](Screenshots/Top_Performing_Schools.PNG)
 
-![The Bottom Performing Schools Data Frame](\Screenshots\Bottom_Performing_Schools.PNG)
+![The Bottom Performing Schools Data Frame](Screenshots/Bottom_Performing_Schools.PNG)
 
-![The Math Score by Grade Data Frame](\Screenshots\Math_Score_by_Grade.PNG)
+![The Math Score by Grade Data Frame](Screenshots/Math_Score_by_Grade.PNG)
 
-![The Reading Score by Grade Data Frame](\Screenshots\Reading_Score_by_Grade.PNG)
+![The Reading Score by Grade Data Frame](Screenshots/Reading_Score_by_Grade.PNG)
 
-![The Scores by School Spending Data Frame](\Screenshots\Scores_by_School_Spending.PNG)
+![The Scores by School Spending Data Frame](Screenshots/Scores_by_School_Spending.PNG)
 
-![The Scores by School Size Data Frame](\Screenshots\Scores_by_School_Size.PNG)
+![The Scores by School Size Data Frame](Screenshots/Scores_by_School_Size.PNG)
 
-![The Scores by School Type Data Frame](\Screenshots\Scores_by_School_Type.PNG)
+![The Scores by School Type Data Frame](Screenshots/Scores_by_School_Type.PNG)
