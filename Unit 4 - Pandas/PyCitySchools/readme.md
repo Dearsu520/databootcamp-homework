@@ -5,7 +5,7 @@ Submitted by: Yijing Su
 Date: October 24thth, 2020
 
 
-**Description:** 
+# **Description** 
 
 In this homework, I chose the Option 2: PyCitySchools Homework and they are stored inside the PyCitySchools folder
 
@@ -13,7 +13,16 @@ Inside the PyCitySchools folder, I upload my pandas scripty written in jupyter n
 
 This link will take you to my [homework repository - Unit 4 Python](https://github.com/Dearsu520/databootcamp-homework/tree/master/Unit%204%20-%20Pandas/PyCitySchools).
 
-The following is the final output Data Frame I got for each section of the homework. 
+# **Observable Trends** 
+Based on the analysis I did for PyCitySchools, there are two trends I can conclude:
+
+1. According to the overall percentage for students who pass both math and reading, the top five best performing schools are all Charter schools with school size smaller than 2000. The five worst performing schools are all District schools with school size bigger than 2000. 
+
+
+2. Schools with smaller spending ranges per student tend to have higher math and reading grades and higher passing grades than the schools with larger spending ranges per student. For the size of schools, schools with size smaller than 1000, and schools with size between 1000 and 200 do not have too much difference in terms of their math and reading scores. But for the schools with more than 2000 students, the math scores and reading scores are significantly lower. Lastly, Chater schools have much higher math and reading scores compared to District schools.
+
+# **Output Results** 
+The following is the link to each output Data Frames I got for each section of the homework. 
 
 [The District Summary Data Frame](\Screenshots\District_Summary.PNG)
 
