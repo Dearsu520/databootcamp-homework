@@ -24,22 +24,39 @@ Based on the analysis I did for PyCitySchools, there are two trends I can conclu
 Please refer to the following images for the trend.s
 
 # **Output Results** 
-The following is the link to each output Data Frames I got for each section of the homework. 
+The following are output Data Frames I got for each section of the homework:
 
+**The District Summary Data Frame**
 ![The District Summary Data Frame](Screenshots/District_Summary.PNG)
 
+
+**The School Summary Data Frame**
 ![The School Summary Data Frame](Screenshots/School_Summary.PNG)
 
+
+**The Top Performing Schools Data Frame**
 ![The Top Performing Schools Data Frame](Screenshots/Top_Performing_Schools.PNG)
 
+
+**The Bottom Performing Schools Data Frame**
 ![The Bottom Performing Schools Data Frame](Screenshots/Bottom_Performing_Schools.PNG)
 
+
+**The Math Score by Grade Data Frame**
 ![The Math Score by Grade Data Frame](Screenshots/Math_Score_by_Grade.PNG)
 
+
+**The Reading Score by Grade Data Frame**
 ![The Reading Score by Grade Data Frame](Screenshots/Reading_Score_by_Grade.PNG)
 
+
+**The Scores by School Spending Data Frame**
 ![The Scores by School Spending Data Frame](Screenshots/Scores_by_School_Spending.PNG)
 
+
+**The Scores by School Size Data Frame**
 ![The Scores by School Size Data Frame](Screenshots/Scores_by_School_Size.PNG)
 
+
+**The Scores by School Type Data Frame**
 ![The Scores by School Type Data Frame](Screenshots/Scores_by_School_Type.PNG)
