@@ -14,7 +14,7 @@ A detailed analysis is in begin of the WeatherPy.ipynb source code file. The thr
 
 
 
-This link will take you to my [homework repository - Unit 4 Python](https://github.com/Dearsu520/databootcamp-homework/tree/master/Unit%204%20-%20Pandas/PyCitySchools).
+This link will take you to my [homework repository - Unit 6 APIs](https://github.com/Dearsu520/databootcamp-homework/tree/master/Unit%204%20-%20Pandas/PyCitySchools).
 
 
 
@@ -46,3 +46,5 @@ The following are output Data Frames I got for each section of the homework:
 [City Latitude vs. Wind Speed of Northern Hemisphere](output_data/City_Latitude_vs_Wind_Speed_of_Northern_Hemisphere.png)
 
 [City Latitude vs. Wind Speed of Southern Hemisphere](output_data/City_Latitude_vs_Wind_Speed_of_Southern_Hemisphere.png)
+
+[CSV of all retrieved data](output_data/cities.csv)
