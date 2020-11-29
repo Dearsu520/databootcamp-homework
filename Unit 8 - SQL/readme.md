@@ -18,7 +18,8 @@ The final submission of this homework contains:
 4. A query sql file for data analysis named as data_analysis_query.sql, 
 5. A jupyter notebook that contains the visualization of the data named as bonus.ipynb.
 6. An exported histogram figure from jupyter notebook names as Salary_Ranges_for_Employees_Histogram.png
-7. The data folder which contains all the data imported to the database
+7. An exported bar graph from jupyter notebook names as Average_Salary_by_Title.png
+8. The data folder which contains all the data imported to the database
 
 This link will take you to my [homework repository - Unit 8 SQL](https://github.com/Dearsu520/databootcamp-homework/tree/master/Unit%208%20-%20SQL).
 
