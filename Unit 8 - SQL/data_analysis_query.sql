@@ -1,3 +1,15 @@
+-- Change the data type for birth_date column inside the employees table to make sure all data type is correcct
+ALTER TABLE employees
+ALTER COLUMN birth_date
+TYPE DATE
+USING TO_DATE (birth_date, 'MM/DD/YYYY');
+
+-- Change the data type for hire_date column inside the employees table to make sure all data type is correcct
+ALTER TABLE employees
+ALTER COLUMN hire_date
+TYPE DATE
+USING TO_DATE (hire_date, 'MM/DD/YYYY');
+
 --DATA ANALYSIS
 --List the following details of each employee: employee number, last name, first name, sex, and salary.
 SELECT e.emp_no AS "employee number",e.last_name AS "last name",e.first_name AS "first name",e.sex,s.salary
@@ -6,10 +18,11 @@ INNER JOIN salaries AS s
 ON e.emp_no = s.emp_no;
 
 --List first name, last name, and hire date for employees who were hired in 1986.
-SELECT first_name AS "first name", last_name AS "last name", hire_date AS "hire date in month/date/year"
+SELECT first_name AS "first name", last_name AS "last name", hire_date AS "hire date"
 FROM employees
-WHERE hire_date LIKE '%1986';
+WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
+SELECT* FROM employees
 --List the manager of each department with the following information: department number, department name, 
 --the manager's employee number, last name, first name.
 SELECT d.dept_no AS "department number", d.dept_name AS "department name", e.emp_no AS "manager employee number", 
@@ -20,7 +33,6 @@ ON d.dept_no = m.dept_no
 INNER JOIN employees AS e
 ON e.emp_no = m.emp_no;
 
-	
 --List the department of each employee with the following information: employee number, last name, first name, and department name.
 SELECT e.emp_no AS "employee name", e.last_name AS "last name", e.first_name AS "first name", d.dept_name AS "department name"
 FROM departments AS d
@@ -35,7 +47,6 @@ FROM employees
 WHERE first_name = 'Hercules' 
 AND last_name LIKE 'B%';
 
-
 --List all employees in the Sales department, including their employee number, last name, first name, and department name.
 SELECT e.emp_no AS "employee name", e.last_name AS "last name", e.first_name AS "first name", d.dept_name AS "department name"
 FROM departments AS d
@@ -48,7 +59,6 @@ WHERE d.dept_name = 'Sales';
 --List all employees in the Sales and Development departments, including their employee number, last name, first name, 
 --and department name.
 SELECT e.emp_no AS "employee name", e.last_name AS "last name", e.first_name AS "first name", d.dept_name AS "department name"
-FROM departments AS d
 FROM departments AS d
 INNER JOIN dept_emp AS d_e
 ON d.dept_no = d_e.dept_no

@@ -12,11 +12,12 @@ In this homework, I create a new database named as Employee_DB. To visualize and
 To test the valibilty of the data, I finish the bonus section of this homework to generate a visualization of the data by using jupyter notebook and SQLAlchemy. In this bonus section, I create a histogram to see the salary ranges for employees to see the common pattern. And based on the histogram, it can be observed that about 50% of employees' salaries falls in the cateogory of 40,000 to 50,000. 
 
 The final submission of this homework contains:
-* An image of the ERD named as ERD.png,
-* An ERD script used to generate the ERD in QuickDBD named as ERD_script.txt,
-* A table creation sql file names as data_creation.sql, 
-* A query sql file for data analysis named as data_analysis_query.sql, 
-* A jupyter notebook that contains the visualization of the data named as bonus.ipynb.
+1. An image of the ERD named as ERD.png,
+2. An ERD script used to generate the ERD in QuickDBD named as ERD_script.txt,
+3. A table creation sql file names as data_creation.sql, 
+4. A query sql file for data analysis named as data_analysis_query.sql, 
+5. A jupyter notebook that contains the visualization of the data named as bonus.ipynb.
+6. An exported histogram figure from jupyter notebook names as Salary_Ranges_for_Employees_Histogram.png
 
-This link will take you to my [homework repository - Unit 8 SQL](https://github.com/Dearsu520/databootcamp-homework/tree/master/Unit%204%20-%20Pandas/PyCitySchools).
+This link will take you to my [homework repository - Unit 8 SQL](https://github.com/Dearsu520/databootcamp-homework/tree/master/Unit%208%20-%20SQL).
 
