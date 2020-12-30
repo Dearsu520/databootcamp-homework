@@ -13,4 +13,4 @@ In the repository, there is the scrape.ipynb file which illustrates the scraping
 
 The following is the screen shot of the web page:
 
-[City Latitude vs. Max Tempurature](screen_shots/web_app_screen_shot.PNG)
+[Web App Screenshot](screen_shots/web_app_screen_shot.PNG)
