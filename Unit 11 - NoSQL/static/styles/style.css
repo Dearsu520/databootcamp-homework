@@ -1,0 +1,53 @@
+.title_section{
+    background-color: darkgrey;
+    text-align: center;
+    font-family: initial;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.scrape_button{
+    background-color: royalblue;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    border: 3px solid #606060;
+    margin-top: 2%;
+}
+
+.latest_news{
+    background-color: #606060;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.image_facts{
+    padding: 2%;
+    display: flex;
+}
+
+.featured_image{
+    flex: 1;
+    width: 50%;
+    padding: 1%;
+}
+
+.facts_table{
+    flex: 1;
+    width: 50%;
+    padding: 1%;
+}
+
+.mars_hemispheres{
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+}
+
+/* .news_title, .news_description{
+    color:aliceblue;
+    margin: auto;
+} */
