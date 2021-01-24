@@ -95,7 +95,9 @@ d3.json("../samples.json").then((allData) => {
             .attr("label", (otu) => otu.out_label)
             .attr("width", (otu) => x(otu.otu_value) )
             .attr("y", (otu) => y(otu.otu_id))
-            .attr("height", y.bandwidth());
+            .attr("height", y.bandwidth())
+            .append("title")
+            .text((otu) => otu.otu_label);
 
         // add the x Axis
         svg.append("g")
@@ -161,7 +163,9 @@ d3.json("../samples.json").then((allData) => {
             .attr("cy", function (d) { return y(d.otu_value); } )
             .attr("r", function (d) { return z(d.otu_value); } )
             .style("fill", function (d) { return myColor(d.otu_id); } )
-            .style("opacity", 0.7);
+            .style("opacity", 0.7)
+            .append("title")
+            .text((otu) => otu.otu_label);
         
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
