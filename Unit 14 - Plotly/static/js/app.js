@@ -66,7 +66,7 @@ d3.json("../samples.json").then((allData) => {
 
         var margin = {top: 20, right: 20, bottom: 30, left: 40};
         var width = 960 - margin.left - margin.right;
-        var height = 500 - margin.top - margin.bottom;
+        var height = 400 - margin.top - margin.bottom;
 
         // set the ranges
         var y = d3.scaleBand()
@@ -122,7 +122,7 @@ d3.json("../samples.json").then((allData) => {
 
         var margin = {top: 40, right: 150, bottom: 60, left: 30};
         var width = 1100 - margin.left - margin.right;
-        var height = 650 - margin.top - margin.bottom;
+        var height = 400 - margin.top - margin.bottom;
 
         var svg = d3.select("#bubble").append("svg")
                 .attr("width", width + margin.left + margin.right)
@@ -132,17 +132,17 @@ d3.json("../samples.json").then((allData) => {
 
         var x = d3.scaleLinear()
                 .domain([0, d3.max(otu_ids) + 100])
-                .range([0, width]);
+                .range([50, width]);
           
         // Add Y axis
         var y = d3.scaleLinear()
-            .domain([0, d3.max(sample_values)])
-            .range([height + 50, 0]);
+            .domain([-50, d3.max(sample_values) + 100])
+            .range([height , 0]);
           
         // Add a scale for bubble size
         var z = d3.scaleSqrt()
             .domain([0, d3.max(sample_values)])
-            .range([10, 30]);
+            .range([0.05, 80]);
           
         // Add a scale for bubble color
         var myColor = d3.scaleOrdinal()
@@ -156,11 +156,12 @@ d3.json("../samples.json").then((allData) => {
             .data(otu_properties)
             .enter()
             .append("circle")
-            .attr("class", function(d) { return "bubble"})
+            .attr("class", function() { return "bubble"})
             .attr("cx", function (d) { return x(d.otu_id); } )
             .attr("cy", function (d) { return y(d.otu_value); } )
             .attr("r", function (d) { return z(d.otu_value); } )
-            .style("fill", function (d) { return myColor(d.otu_id); } );
+            .style("fill", function (d) { return myColor(d.otu_id); } )
+            .style("opacity", 0.7);
         
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
